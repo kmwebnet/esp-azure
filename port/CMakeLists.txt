@@ -117,7 +117,7 @@ endif()
 
 set (COMPONENT_SUBMODULES "${AZURE_IOT_SDK}")
 
-set(COMPONENT_PRIV_REQUIRES "mbedtls esp-tls main")
+set(COMPONENT_PRIV_REQUIRES "mbedtls esp-tls")
 
 register_component()
 
